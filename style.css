@@ -26,10 +26,191 @@ html { box-sizing: border-box; }
 	#242424		(skoro) černá - na běžný text
 	#f0f0f0		světle šedé pozadí prostřední sekce
 	#303339		tmavé pozadí patičky
+
+	font-family: 'Lora', serif;
+	font-family: 'Playfair Display', serif;
 */
 
 
 body {
+	margin: 0 auto;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #242424;
+	background-size: cover;
+}
+
+.inner {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.header .inner {
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 0;
+}
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0;
+}
+
+.logo {
+	width: 170px;
+}
+
+.menu {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #242424;
+	padding: 10px 15px;
+}
+
+.menu li:hover {
+	background-color:#f195b2;
+	border-radius: 20px;
+	color: white;
+}
+
+.menu a:hover {
+	color: white;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 52px;
+	color: white;
+	font-weight: 700;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+.hero p {
+	color: white;
+	font-size: 24px;
+	font-style: italic;
+	padding-right: 40%;
+}
+
+.welcome .inner {
+	display: flex;
+	padding: 80px 0;
+	align-items: center;
+}
+
+.text, .photo {
+	flex-basis: 535px;
+	flex-shrink: 0;
+}
+
+
+h2 {
+	color:#3e606b;
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+h3 {
+	color:#3e606b;
+	font-family: 'Playfair Display', serif;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.cakes {
+	background-color:#f0f0f0 ;
+	padding: 80px 0;
 	margin: 0;
 }
 
+.products {
+	display: flex;
+	
+}
+
+.product {
+	background-color: white;
+	flex-basis: 25%;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.products img {
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+
+.baking .inner {
+	align-items: center;
+	display: flex;
+	padding: 80px 0;
+}
+
+.footer {
+	background-color: #303339;
+	text-align: center;
+	color: white;
+	padding: 30px;
+}
+
+.welcome img, .baking img {
+	border-radius: 5px;
+}
+
+div + div {
+	margin-left: 30px;
+}
+
+.button {
+	padding: 15px 40px;
+	background-color: #f195b2;
+	text-decoration: none;
+	color: white;
+	border-radius: 30px;
+}
+
+.button:hover {
+	background-color:#d2567d ;
+}
+
+.bottom {
+	margin-bottom: 40px;
+}
+
+
+.block {
+	display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+.product-text {
+	padding: 20px;
+}
+
+.product-text p {
+	margin: 0;
+	font-size: 16px;
+}
