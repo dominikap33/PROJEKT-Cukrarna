@@ -98,6 +98,8 @@ h1 {
 	font-weight: 700;
 	font-weight: bold;
 	margin-top: 0;
+	padding-right: 50%;
+	line-height: 1.2;
 }
 
 .hero p {
@@ -105,6 +107,7 @@ h1 {
 	font-size: 24px;
 	font-style: italic;
 	padding-right: 40%;
+	margin-bottom: 0;
 }
 
 .welcome .inner {
@@ -132,7 +135,8 @@ h3 {
 	color:#3e606b;
 	font-family: 'Playfair Display', serif;
 	margin-top: 0;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	font-size: 18px;
 }
 
 .cakes {
@@ -195,7 +199,6 @@ div + div {
 .bottom {
 	margin-bottom: 40px;
 }
-
 
 .block {
 	display: block;
